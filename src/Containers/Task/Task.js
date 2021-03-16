@@ -258,17 +258,17 @@ export default class Task extends React.Component{
         return actions;
     }
 
-    specificLeads(leads,id){
-        leads.map(item =>{
-            if(item.id === id){
-                     this.setState({
-                        leads: item,
-                        taskAction: "view"
-                    })
-                return {}
-            }
-        })
-    }
+    // specificLeads(leads,id){
+    //     leads.map(item =>{
+    //         if(item.id === id){
+    //                  this.setState({
+    //                     leads: item,
+    //                     taskAction: "view"
+    //                 })
+    //             return {}
+    //         }
+    //     })
+    // }
 
     fetchLeads(id){
         let body={

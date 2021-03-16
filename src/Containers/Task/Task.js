@@ -265,7 +265,7 @@ export default class Task extends React.Component{
                         leads: item,
                         taskAction: "view"
                     })
-                return
+                return {}
             }
         })
     }

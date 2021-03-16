@@ -261,14 +261,12 @@ export default class Task extends React.Component{
     specificLeads(leads,id){
         leads.map(item =>{
             if(item.id === id){
-                return(
-                    this.setState({
+                return( this.setState({
                         leads: item,
-                        taskAction: "view",
+                        taskAction: "view"
                     })
                 )  
             }
-            return
         })
     }
 

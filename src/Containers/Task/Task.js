@@ -269,6 +269,7 @@ export default class Task extends React.Component{
                 )  
             }
         })
+        return
     }
 
     fetchLeads(id){

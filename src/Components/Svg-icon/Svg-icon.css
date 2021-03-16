@@ -1,0 +1,48 @@
+svg {
+    background-repeat: no-repeat no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    fill: currentColor;
+}
+.svg--img {
+    height: 24px;
+    width: 24px;
+}
+.svg-fade{
+    opacity: 0.6;
+}
+.svg--big{
+    height: 30px;
+    width: 30px;
+}
+.svg--lg{
+    height: 20px;
+    width: 20px;
+}
+.svg--md{
+    height: 18px;
+    width: 18px;
+}
+.svg--sm{
+    height: 16px;
+    width: 16px;
+}
+.svg--xs{
+    height: 14px;
+    width: 14px;
+}
+.svg--light-grey{
+    color: #BFBFBF;
+}
+.svg--light-blue{
+    color: #89c1f3;
+}
+.svg--white{
+    color: #ffffff;
+}
+.profile{
+    height: 46px;
+    padding-top: 12px;
+    padding-left: 2px;
+    width: 46px;
+}

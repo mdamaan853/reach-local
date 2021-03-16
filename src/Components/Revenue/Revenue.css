@@ -1,0 +1,40 @@
+
+.revenue-info{
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #89d8d3, #03c8a8 74%);
+   
+}
+.info{
+    font-weight: 150;
+    font-size: large;
+    color: white;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    border-radius: 10px;
+    padding:0.5% 1%;
+}
+.info-dashboard{
+    /* font-weight: 150;
+    font-size: large; */
+    color: white;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    border-radius: 10px;
+}
+.client-transaction{
+    background-color: rgb(0,172,238);
+    background-image: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+}
+
+.client-transaction-dashboard{
+    background-color: #76aef1;
+    background-image: linear-gradient(to right, #f0ecfc 0%, #76aef1 100%);
+}
+
+.max-allowed-debit{
+    background: rgb(118,150,192);
+    background-image: linear-gradient(0deg,rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%); 
+}
+
+.client-transaction-dash{
+    background-color: rgba(0,172,238,.2);
+    background-image: linear-gradient(0deg,rgba(0,172,238,0.1) 0%, rgba(2,126,251,0.6) 100%);
+}

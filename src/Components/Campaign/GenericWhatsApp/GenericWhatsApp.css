@@ -1,0 +1,101 @@
+.img-container{
+  width: auto;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+.custom-file-input::before {
+    content: 'Select Image';
+    display: inline-block;
+    /* background: linear-gradient(top, #f9f9f9, #e3e3e3); */
+    /* border: 1px solid #ccc;
+    border-radius: 3px; */
+    padding: 7px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .custom-file-input:hover::before {
+    border-color: black;
+  }
+  .custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  /* .icon-backrnd{
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    padding: 7px 8px;
+  } */
+
+  .content-file-input::-webkit-file-upload-button {
+    /* visibility: hidden; */
+    display: none;
+  }
+  .content-file-input::before {
+    content: 'Upload Content (Image/Video)';
+    display: inline-block;
+    /* background: linear-gradient(top, #f9f9f9, #e3e3e3); 
+    border: 1px solid #ccc; */
+    border-radius: 3px;
+    padding: 7px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+  .content-file-input:hover::before {
+    border-color: black;
+  }
+  .content-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  }
+  .preview__content{
+    position: absolute;
+    max-width: 83%;
+    top: 65px;
+    float: left;
+    background: #fff;
+    text-align: left;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #262626;
+    padding: 6px 4px 8px 4px;
+    margin-left: 12px;
+    line-height: 14pt;
+  }
+  .preview__content:before{
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    width: 12px;
+    height: 19px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .in:before{
+    background-image: url('../../../Constants/img/lefticon.png');
+    left: -11px;
+  }
+  .DP_image{
+    object-fit: contain;
+    top: 20px;
+    width: 24px;
+    left: 7%;
+    border-radius: 50%;
+    position: absolute;
+  }

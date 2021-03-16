@@ -1,0 +1,120 @@
+.mar{
+    margin: 16px;
+}
+.margin-auto{
+    margin: auto;
+}
+.mar--half{
+    margin: 8px;
+}
+.mar--quar{
+    margin: 4px;
+}
+.margin-top--auto{
+    margin-top: auto !important;
+}
+.margin-btm-auto{
+    margin-bottom: auto !important;
+}
+.margin-left--auto{
+    margin-left: auto !important;
+}
+.margin-right--auto{
+    margin-right: auto !important;
+}
+.margin-top{
+    margin-top: 16px;
+}
+.margin-top-o{
+    margin-top:0px;
+}
+.margin-top-60{
+    margin-top:60px;
+}
+.margin-top-three{
+    margin-top: 3%;
+}
+.margin-top-five{
+    margin-top: 5% !important;
+}
+.margin-top-seven{
+    margin-top: 7%;
+}
+.margin-top--half{
+    margin-top: 8px;
+}
+.margin-top--quar{
+    margin-top: 4px;
+}
+.margin-top--double{
+    margin-top: 24px;
+}
+.margin-btm--TwentyFive{
+    margin-bottom: 25%;
+}
+.margin-btm{
+    margin-bottom: 16px;
+}
+.margin-btm--half{
+    margin-bottom: 8px;
+}
+.margin-btm--quar{
+    margin-bottom: 4px;
+}
+.margin-btm--double{
+    margin-bottom: 24px;
+}
+.margin-btm-Three{
+    margin-bottom: 3%;
+}
+.margin-left{
+    margin-left: 16px !important;
+}
+.margin-left-fourfour{
+    margin-left: 44% !important;
+}
+.margin-left-ten{
+    margin-left: 10% !important;
+}
+.margin-left-one{
+    margin-left: 1% !important;
+}
+.margin-left-seventy{
+    margin-left: 70% !important; 
+}
+.margin-left-seventyFive{
+    margin-left: 75% !important; 
+}
+.margin-left-fifty{
+    margin-left: 50% !important; 
+}
+.left-thirty{
+    left: 30px !important;
+}
+.leftTwoTen{
+    left: 210px !important;
+}
+.margin-left-O{
+    margin-left: 0px !important;
+}
+.margin-left--half{
+    margin-left: 8px !important;
+}
+.margin-left--quar{
+    margin-left: 4px;
+}
+.margin-right{
+    margin-right: 16px;
+}
+.margin-right--half{
+    margin-right: 8px !important;
+}
+.margin-right--quar{
+    margin-right: 4px;
+}
+.margin-right--ten{
+    margin-right: 10%;
+}
+.margin-right--fifty{
+    margin-right: 50%;
+}

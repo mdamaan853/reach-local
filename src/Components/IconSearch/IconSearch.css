@@ -1,0 +1,16 @@
+.results{
+    position: absolute;
+    margin: 10px 12px;
+    max-height: 160px;
+    overflow-y: auto;
+    padding: 5px;
+    background: #f7f5f5;
+    width: 210px;
+}
+.list-icons{
+    padding: 6px;
+}
+.list-icons i{
+    margin-bottom: 16px;
+    cursor: pointer;
+}

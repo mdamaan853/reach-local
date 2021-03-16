@@ -1,0 +1,59 @@
+
+.profile-btn{
+    width: 90%;
+    background-color:#005580; 
+    color:white;
+    border: none;
+    padding: 1vmax;
+    margin: 2vmax;
+}
+
+
+fieldset{
+    margin: 2vmax;
+    /* border: 2px dashed #012f46; */
+    border: 2px solid #cceeff;
+    padding: 1vmax;
+}
+
+legend{
+    font-size: large;
+    color: #005580;
+    text-decoration-style: solid;
+}
+
+.row-profile{
+    display: flex;
+    height: 2vax;
+}
+.col-50-profile{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+}
+.col-25-profile{
+    flex: 35%;
+    padding-left: 1vh;
+}
+.col-75-profile{
+    flex: 65%;    
+}
+.company-logo{
+    min-height: 10em;
+}
+.businessView{
+    font-size: 15px;
+}
+.businessView .content{
+    background-color: #e1e3e4;
+    padding: 5px;
+    border-radius: 12px;
+}
+.businessView .header{
+    font-weight: bold;
+}
+.businessView .meta{
+    color: rgba(0,0,0,.6);
+    padding-top: 4px;
+    word-break: break-all;
+} 

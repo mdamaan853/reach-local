@@ -1,0 +1,71 @@
+/* .wrapper-container{
+    margin: 18px 18px 12px 18px;
+} */
+.products-wrapper .accordion{
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.buyCredits-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buyCredits-item--web{
+    background: rgba(242,245,245,0.8);
+    padding: 18px 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d2d1d1;
+}
+.buyCredits-item--web.active{
+    background: #d0cfcf;
+}
+.buyCredits-item--web:hover{
+    background: #d0cfcf;
+    cursor: pointer;
+}
+.buyCredits-desc--web{
+    background: #d0cfcf;
+}
+.desc-item--web{
+    display: flex;
+    flex-direction: row;
+}
+.datasrc-filter{
+    background: rgba(242,245,245,0.8);
+    width: 23%;
+    border: 1px solid #d2d1d1;
+}
+.datasrc-filter--header{
+    background: #d0cfcf;
+    padding: 16px 0px;
+}
+.wallet-card-wrapper{
+    max-width: 340px;
+    margin: 28px auto !important;
+    min-height: 450px;
+    min-width: 340px;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(rgba(49,137,184,0.24)0%, rgba(49,137,184,0.01)100%);
+}
+.wallet-bg{
+    background-image: url('../../Constants/img/logo-wallet.png');
+    height: 200px;
+    background-position: center;
+}
+.wallet-balance{
+    border-top: 1px solid rgba(49, 137, 184, 0.35);
+}
+.add-money-nav{
+    border-bottom: 1px solid #ebebeb;
+    background: #e6e6e6;
+    text-align: left;
+    border-radius: 4px;
+}
+.add-money-nav-item{
+    border-bottom: 2px solid #9ccae0;
+}
+.overflowX-auto{
+    overflow-x: auto;
+}

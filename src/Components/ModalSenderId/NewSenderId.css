@@ -1,0 +1,48 @@
+.senderId-modal--wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 12px 0px;
+}
+
+.tooltip-text{
+    position: absolute;
+    visibility: visible;
+    /* background-color: #333333; */
+    background-color: #f2f2f2;
+    color: #333333;
+    padding: 15px 35px;
+    border-radius: 115px;
+    text-align: center;
+    /* border-style: 1px #b3b3b3 dotted; */
+    left:8em;
+    top:140px;
+    /* bottom:10px; */
+}
+
+.tooltip-text-buyCredit{
+    position: absolute;
+    visibility: visible;
+    /* background-color: #333333; */
+    background-color: #f2f2f2;
+    color: #333333;
+    padding: 15px 35px;
+    border-radius: 15px;
+    text-align: center;
+    /* border-style: 1px #b3b3b3 dotted; */
+    /* left:8em;
+    top:140px; */
+    /* bottom:10px; */
+}
+
+.tooltip-icon{
+    position: relative;
+    cursor: pointer;
+    /* z-index: 1;
+    bottom: 8px; */
+    top:10px;
+    left:5em;
+}
+
+.tooltip-icon:hover .tooltip-text{
+    visibility: hidden;
+}

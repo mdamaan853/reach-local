@@ -1,0 +1,26 @@
+.date{
+    display: grid  !important;
+    position: relative;
+}
+  
+.custom-datepicker{
+  width: 350px;
+}
+.container{
+  width: 100%
+}
+
+/* .weekday input[type=radio] {
+  border: 1px solid #fff;
+  padding: 0.5em;
+  -webkit-appearance: none;
+}
+
+.weekday input[type=radio]:checked {
+  background: green repeat center center;
+  background-size: 9px 9px;
+}
+
+.weekday input[type=radio]:focus {
+  outline-color: transparent;
+} */

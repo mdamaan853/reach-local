@@ -1,0 +1,20 @@
+.display-inline{
+    display: inline;
+}
+.display-block{
+    display: block;
+}
+.display-none{
+    display: none;
+}
+
+.float-rt{
+    float: right;
+}
+
+.overflowX-auto{
+    overflow-x: auto;
+}
+.overflowX-scroll{
+    overflow-x: scroll; 
+}

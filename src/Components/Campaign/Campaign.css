@@ -1,0 +1,150 @@
+
+.padding-all-12{
+    padding: 12px;
+}
+
+.margin-15{
+    margin: 15px;
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    
+}
+  
+#myTable td {
+    text-align: left; /* Left-align text */
+    padding: 40px; /* Add padding */
+}
+  
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+}
+  
+#myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+/* The radio button container */
+.radioBtn {
+    display: inline;
+    position: relative;
+    padding-left: 30px;
+    margin-right: 12px;
+    font-size: 1.2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .radioBtn  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .radioBtn:hover  input ~ .checkmark1 {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .radioBtn  input:checked ~ .checkmark1 {
+    /* background-color: #2196F3; */
+    background-color:#4CAF50;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark1:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  /* .radioBtn input:checked ~ .checkmark1:after {
+    display: block;
+  } */
+  
+  /* Style the indicator (dot/circle) */
+  /* .radioBtn .checkmark1:after {
+       top: 6.1px;
+      left: 7px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  } */
+
+  #shorturl{
+    padding: 20px;
+    margin-left: 10px;
+  }
+  
+  .preview__overlay{
+    position: absolute;
+    max-height: 102px;
+    min-height: 102px;
+    background: #fff;
+    overflow-y: auto;
+    z-index: 100;
+    right: 47px;
+    bottom: 0;
+    width: 198px;
+  }
+
+  .preview__text{
+    background: #ccc;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px 38px 6px 12px;
+    word-break: break-word;
+    font-size: 12px;
+  }
+
+  .preview__img{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 8px;
+  }
+
+  .preview__senderId{
+    position: absolute;
+    max-height: 23px;
+    min-height: 23px;
+    background: #f8f8f8;
+    overflow-y: auto;
+    z-index: 101;
+    right: 96px;
+    top: 109px;
+    font-weight: 600;
+    padding-top: 3px;
+    text-align: center;
+    width: 83px;
+  }
+
+  .preview__info{
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    max-width: 38%;
+  }

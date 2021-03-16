@@ -1,0 +1,60 @@
+.text-small{
+    font-size: small;
+}
+.text-large{
+    font-size: large;
+}
+.text-light{
+    color: #585858;
+}
+.text--darker{
+    color: #222;
+}
+.text--center{
+    text-align: center;
+}
+.text--underline{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.text--right{
+    text-align: right;
+}
+.text-end{
+    text-align: end; 
+}
+.text--bold{
+    font-weight: 600;
+}
+.text--bolder{
+    font-weight: bolder;
+}
+.section-title{
+    font-weight: 600;
+    padding: 8px 0;
+}
+.text--white{
+    color: #ffffff;
+}
+.text--capitalize{
+    text-transform: uppercase;
+}
+.text--red{
+    color:#fb404b;
+}
+.text-break--all{
+    word-break: break-all;
+}
+.font-size-11{
+    font-size: 11px;
+}
+
+.font-size-xxlarge{
+    font-size:xx-large;
+}
+
+label.required:after{
+    content: " *";
+    color: red;
+    font-size: medium;
+}

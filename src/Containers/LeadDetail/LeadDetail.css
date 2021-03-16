@@ -1,0 +1,78 @@
+.lead-panel-desktop{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lead-panel-mobile{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.leadDetail-card{
+    background: #ffffff;
+}
+.profile-image-wrapper{
+    width: 7em;
+    background: #eeeeee;
+    height: 7em;
+    position: relative;
+    border-radius: 50%;
+}
+
+.name-initials{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #848181;
+    font-size: 26px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-transform: uppercase;
+    background: #eeeeee;
+}
+.user-name{
+    font-size: 16px;
+}
+.changeStatus-cta{
+    color: green;
+    text-decoration: underline;
+}
+.comment-history{
+    max-height: 11em;
+    overflow-y: auto;
+}
+.comment-card{
+    background: #eeeeee;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.twenty{
+    width: 20% !important;
+}
+
+/* ###########Table########### */
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+  }

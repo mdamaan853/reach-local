@@ -1,0 +1,76 @@
+.login-container{
+    background-image: url('../../Constants/img/login-bg.jpg');
+    background-size: cover;
+    /* overflow: hidden; */
+    float: left;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 100%; 
+}
+.video-header{
+    color:rgb(102,102,102);
+    font-weight: 1000;
+    
+    
+}
+.videoBox{
+    margin: 20px;
+    padding: 10px;
+    height: 50vh;
+}
+.login-wrapper{
+    margin: auto;
+    background: #ffffff;
+    min-width: 320px;
+    max-width: 320px;
+    border: 1px solid #eeeeee;
+    /* margin-top: 25%; */
+    font-size: smaller;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #e2e2e4, 0 0 0 1px #e3e3e4;
+}
+@media(max-width:500px){
+    .login-wrapper{
+        margin-top: 8% !important;  
+    }  
+}
+.login-btn{
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.input-login{
+    border: 1px solid #e6eaea;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    float: left;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    padding: 13px 30px;
+    width: 100%;
+    outline: none;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.login-top-bar{
+    background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    width: 100%;
+}
+.headerImage{
+    background-image: url('../../Constants/img/expletus-logo.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.login{
+    border: 1px solid #e6eaea;
+    padding:16px;
+    margin: 16px;
+}

@@ -1,0 +1,15 @@
+
+.bakgrnd-grad{
+    background-image: linear-gradient(to right, rgba(0, 153, 51,1) , rgba(0, 94, 158,1));
+}
+
+.BetaCuraSubmit{
+    background-color: #fff;
+    color:black;
+    cursor: pointer;
+    width:120%;
+    padding: 2%;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+}
